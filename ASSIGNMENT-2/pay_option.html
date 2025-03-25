@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment Options</title>
+  <link rel="stylesheet" href="payment-option.css">
+</head>
+
+<body>
+  <div class="payment-container">
+    <h1>Payment of Registration Fees</h1>
+    <form action="#" method="post">
+      <label>
+        <input type="radio" name="payment" value="debit" required>
+        <img src="debit-card.png" alt="Debit Card"> Debit card
+      </label>
+
+      <label>
+        <input type="radio" name="payment" value="credit">
+        <img src="credit-card.png" alt="Credit Card"> Credit card
+      </label>
+
+      <label>
+        <input type="radio" name="payment" value="upi">
+        <img src="upi.png" alt="UPI"> BHIM UPI
+      </label>
+
+      <label>
+        <input type="radio" name="payment" value="netbanking">
+        Net banking
+      </label>
+
+      <button type="submit">Pay</button>
+    </form>
+  </div>
+</body>
+
+</html>
